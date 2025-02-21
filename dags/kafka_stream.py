@@ -4,8 +4,8 @@ from airflow import DAG
 from airflow.operators.python import PythonOperator
 
 default_args = {
-    'owner': 'airscholar',
-    'start_date': datetime(2023, 9, 3, 10, 00)
+    'owner': 'Ibrahim',
+    'start_date': datetime(2025, 2, 21, 18, 40)
 }
 
 def get_data():
